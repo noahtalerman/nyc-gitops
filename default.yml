@@ -11,7 +11,10 @@ agent_options:
   path: ./lib/agent-options.yml
 controls:
 org_settings:
-  fleet_desktop:
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://example.com
     transparency_url: https://catoftheday.com
   host_expiry_settings:
     host_expiry_enabled: true
