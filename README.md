@@ -1,0 +1,1 @@
+Repo for Fleet's in-person NYC GitOps traning on 2025-05-06.
