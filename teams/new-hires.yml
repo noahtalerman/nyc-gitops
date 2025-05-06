@@ -20,6 +20,13 @@ controls:
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
     - path: ../lib/set-timezone.script.sh
+  macos_updates:
+    deadline: "2025-05-15"
+    minimum_version: "15.4.0"
+
+  macos_settings:
+    custom_settings:
+      - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
