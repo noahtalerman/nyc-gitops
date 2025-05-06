@@ -22,5 +22,5 @@ controls:
     - path: ../lib/set-timezone.script.sh
 team_settings:
   secrets:
-    - secret: "$FLEET_NEW_HIRES_SECRET"
+    - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
 software:
